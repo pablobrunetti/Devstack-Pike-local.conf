@@ -1,5 +1,5 @@
 # Devstack-Pike-local.conf
-This repository contains a local.conf script which can be used to create a devstack Ocata setup. The monitoring modules of the Devstack is working(Gnocchi + ceilometer + AODH). 
+This repository contains a local.conf script which can be used to create a devstack Pike setup. The monitoring modules of the Devstack is working(Gnocchi + ceilometer + AODH). 
 
 # Pre-requisites
 Start with a clean and minimal install of a Linux system. Devstack attempts to support Ubuntu 16.04/17.04, Fedora 24/25, CentOS/RHEL 7, as well as Debian and OpenSUSE.
@@ -34,7 +34,7 @@ You can quickly create a separate stack user to run DevStack with
 
 ## Download DevStack
 ```  
-    $ git clone https://git.openstack.org/openstack-dev/devstack -b stable/ocata
+    $ git clone https://git.openstack.org/openstack-dev/devstack -b stable/pike
     $ cd devstack
 ``` 
 
@@ -87,5 +87,5 @@ In browser run:
 http://<your_IP>:3000
 ```
 Create your first datasource
-![alt text](https://github.com/pablobrunetti/Devstack-Ocata-local.conf/blob/master/datasource_grafana_pike.png)
+![alt text](https://github.com/pablobrunetti/Devstack-Pike-local.conf/blob/master/datasource_grafana_pike.png)
 
